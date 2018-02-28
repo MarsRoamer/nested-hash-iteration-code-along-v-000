@@ -21,12 +21,6 @@ def remove_strawberry(contacts)
 
       if key == "favorite_ice_cream_flavors"
         binding.pry
-        value.each do |element|
-          if element == "strawberry"
-            element.delete
-          end
-        end
-      end
-    end
+    
   end
 end
